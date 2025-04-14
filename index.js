@@ -34,7 +34,7 @@ function showFieldError({ $element, message = "Ce champ est requis" }) {
  * Supprime l'erreur affichée et remet la bordure du champ en noir
  */
 function hideFeildError({ $element }) {
-  $element.style.borderColor = "black";
+  $element.style.borderColor = "#ccc";
   $element.parentElement.querySelector("span")?.remove();
 }
 
